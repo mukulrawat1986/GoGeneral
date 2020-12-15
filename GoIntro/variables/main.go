@@ -8,4 +8,7 @@ func main() {
 
 	var isTrue bool
 	fmt.Printf("Value: %t\n", isTrue)
+
+	b := byte(87)
+	fmt.Printf("Value: %b\n", b)
 }
