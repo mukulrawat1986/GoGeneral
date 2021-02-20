@@ -28,4 +28,9 @@ func main() {
 	fmt.Printf("bb := \"hello\" \t %T [%v]\n", bb, bb)
 	fmt.Printf("cc := 3.14159 \t %T [%v]\n", cc, cc)
 	fmt.Printf("dd := true \t %T [%v]\n", dd, dd)
+
+	// Specify type and perform a conversion
+	aaa := int32(10)
+
+	fmt.Printf("aaa := int32(10) %T [%v]\n", aaa, aaa)
 }
