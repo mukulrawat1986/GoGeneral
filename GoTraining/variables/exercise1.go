@@ -25,4 +25,10 @@ func main() {
 	fmt.Println(aa)
 	fmt.Println(bb)
 	fmt.Println(cc)
+
+	// Perform a type conversion
+	pi := float32(3.14)
+
+	// Display the value of pi
+	fmt.Println(pi)
 }
